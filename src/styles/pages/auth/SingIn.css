@@ -3,7 +3,7 @@
     height: 100vh;
     position: relative;
     display: flex;
-    background: url('../../../assets/svgs/logo-landing.svg') no-repeat 90% center;
+    background: url('../../../assets/svgs/logo-SingIn.svg') no-repeat 90% center;
 }
 
 #page-SingIn aside {
@@ -38,8 +38,13 @@
 }
 
 #page-SingIn .content-wrapper p {
-    font-size: 24px;
-    color: white;
+    font-size: 20px;
+    color: #ffff;
+}
+
+#page-SingIn .content-wrapper p {
+    font-size: 20px;
+    color: #ffff;
 }
 
 #page-SingIn .content-wrapper Form {
@@ -78,4 +83,19 @@
 
 .content-wrapper .enter-app:hover {
     background: #4dacb1;
+}
+
+.content-wrapper .register-app {
+    width: 250px;
+    margin-top: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+#page-SingIn .content-wrapper .register-app p {
+    font-size: 16px;
+    margin-left: 5px;
+    color: #000;
 }

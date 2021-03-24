@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+
+import { FiLogIn } from "react-icons/fi";
 import { Form } from "react-bootstrap"
 
 
@@ -25,9 +27,15 @@ function SingIn() {
                             <Form.Control type="password" placeholder="Senha" />
                         </Form.Group>
 
-                        <Link to='app' className='enter-app' type='text'>
+                        <Link to='app' className='enter-app'>
                             <p>Entrar</p>
                         </Link>
+
+                        <Link to='SingUp' className='register-app'>
+                            <FiLogIn color='#4dacb1'/>
+                            <p> Não tenho cadastro </p>
+                        </Link>
+
                     </Form>
                     
                 </div>
