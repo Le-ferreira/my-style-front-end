@@ -30,7 +30,7 @@ function SingUp() {
 
                     <Link to='/' className='register-app'>
                         <FiLogIn color='#4dacb1' />
-                        <p> Já possuo cadastro </p>
+                        <p> Já tenho cadastro </p>
                     </Link>
                 </div>
             </aside>
