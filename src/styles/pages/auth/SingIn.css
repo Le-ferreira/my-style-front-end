@@ -1,0 +1,81 @@
+#page-SingIn {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    background: url('../../../assets/svgs/logo-landing.svg') no-repeat 90% center;
+}
+
+#page-SingIn aside {
+    width: 375px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background: linear-gradient(329.54deg, #fcfcfc 0%, #a7a7a7 100%);
+}
+
+#page-SingIn .content-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    height: 100%;
+    max-height: 300px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#page-SingIn .content-wrapper main {
+    max-width: 300px;
+    margin-top: 40px;
+}
+
+#page-SingIn .content-wrapper main h1 {
+    font-size: 76px;
+    line-height: 70px;
+    color: #59c4ca;
+}
+
+#page-SingIn .content-wrapper p {
+    font-size: 24px;
+    color: white;
+}
+
+#page-SingIn .content-wrapper Form {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-top: 32px;
+}
+
+#page-SingIn .content-wrapper input {
+    width: 250px;
+    height: 38px;
+    padding: 4px;
+    margin: 4px;
+    border: none;
+    border-radius: 3px;
+}
+
+.content-wrapper .location strong {
+    font-weight: 800;
+}
+
+.content-wrapper .enter-app {
+    width: 250px;
+    height: 50px;
+    margin: 4px;
+    margin-top: 12px;
+    background: #59c4ca;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.content-wrapper .enter-app:hover {
+    background: #4dacb1;
+}
