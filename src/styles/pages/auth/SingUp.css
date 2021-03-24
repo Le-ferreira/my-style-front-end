@@ -3,7 +3,7 @@
     height: 100vh;
     position: relative;
     display: flex;
-    background: url('../../../assets/svgs/logo-SingUp.svg') no-repeat 80% center;
+    background: url('../../../assets/svgs/logo-SingUp.svg') no-repeat 100% center;
 }
 
 #page-SingUp aside {
