@@ -7,13 +7,20 @@
 }
 
 #page-SingIn aside {
-    width: 375px;
+    width: 402px;
     padding: 50px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    background: linear-gradient(329.54deg, #fcfcfc 0%, #a7a7a7 100%);
+    background: #fff;
+    box-shadow: 10px 10px 19px 0px rgba(179,179,179,0.75);
+    -webkit-box-shadow: 10px 10px 19px 0px rgba(179,179,179,0.75);
+    -moz-box-shadow: 10px 10px 19px 0px rgba(179,179,179,0.75);
+}
+
+#page-SingIn .icon {
+  margin-right: 10px;
 }
 
 #page-SingIn .content-wrapper {
@@ -29,6 +36,7 @@
 #page-SingIn .content-wrapper main {
     max-width: 300px;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 #page-SingIn .content-wrapper main h1 {
@@ -47,21 +55,6 @@
     color: #ffff;
 }
 
-#page-SingIn .content-wrapper Form {
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    margin-top: 32px;
-}
-
-#page-SingIn .content-wrapper input {
-    width: 250px;
-    height: 38px;
-    padding: 4px;
-    margin: 4px;
-    border: none;
-    border-radius: 3px;
-}
 
 .content-wrapper .location strong {
     font-weight: 800;
